@@ -1,0 +1,14 @@
+# This is a sample systemd service that enables the led-blink-galileo1
+# program
+[Unit]
+Description=service file
+
+[Service]
+User=root
+
+ExecStart=/usr/bin/led-blink-galileo1
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
