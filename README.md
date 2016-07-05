@@ -1,2 +1,2 @@
-# galileo1_blinkLed
-A sample blink in the GP led of the Galileo1 using GPIO
+# led-blink-galileo1
+A sample blink of the GP led. Intel Galileo Gen1, using GPIO.
